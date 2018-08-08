@@ -56,22 +56,26 @@ svg {
     fill: currentColor
 }
 
-svg.logo {
-    width:960px;
-    height: auto;
-    max-width: 100%;
-    margin:0 auto;
+.logo {
+    width:100%;
+    text-align: center;
 }
 
-svg.logo > * {
+.logo svg {
+    width:100%;
+    height: auto;
+    max-width: 960px;
+}
+
+.logo svg > * {
     fill: #fff;
 }
 
-svg.logo .nostrils {
+.logo .nostrils {
     fill: rgb(140, 110, 33);
 }
 
-svg.logo .horns {
+.logo .horns {
     fill: rgb(252,102,0);
 }
 
