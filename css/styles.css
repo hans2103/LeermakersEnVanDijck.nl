@@ -61,9 +61,8 @@ svg {
 }
 
 .logo svg {
-    width: 960px;
+    width: 80vw;
     height: auto;
-    max-width: 100%;
 }
 
 .logo svg > * {
